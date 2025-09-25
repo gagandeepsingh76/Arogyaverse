@@ -1,43 +1,53 @@
-# AROGYAVERSE
-# 🌐 **Host Link:** [arogyaverse](https://arogyaverse-six.vercel.app/)
-## Tech Stack
+# 🌿 AarogyaVerse
 
-- Vite + React + TypeScript + Tailwind + shadcn-ui
-- Express backend (Node.js) with security hardening
+![AarogyaVerse Banner](https://your-image-link.com/banner.png)
 
-## Development
+**AarogyaVerse** is an **immersive WebVR platform** that brings **ancient Indian Ayurveda** to life using modern web technologies. Explore interactive 3D environments, learn about wellness practices, and experience a digital journey into holistic health.  
 
-- Frontend only: `npm run dev` (Vite on 8080)
-- Backend only: `npm run dev:api` (Express on 4000)
-- Both concurrently: `npm run dev:full`
+🌐 **Live Demo:** [Visit AarogyaVerse](https://arogyaverse.vercel.app)  
 
-Vite proxies `/api` to `http://localhost:4000` in development.
+---
 
-## Build and Run
+## 🛠️ Tech Stack
 
-1) Build frontend: `npm run build`
-2) Start backend: `npm start`
+**Frontend:**  
+- ⚡ React + TypeScript + Vite  
+- 🎨 Tailwind CSS  
+- 🧩 Shadcn-UI for reusable components  
 
-Backend will serve the built frontend from `dist/` when present.
+**Backend:**  
+- Node.js + Express  
+- 🔒 Security hardening for production  
+- 📧 SMTP email integration  
 
-## Environment
+---
 
-Create a `.env` at project root:
+## 🚀 Development
 
-```
-PORT=4000
-NODE_ENV=development
-ALLOWED_ORIGINS=http://localhost:8080
-SMTP_HOST=
-SMTP_PORT=587
-SMTP_USER=
-SMTP_PASS=
-MAIL_TO=contact@arogyaaverse.com
-```
+### Frontend only
+bash
+npm run dev
 
-If SMTP is not configured, messages are stored in memory and logged.
+---
 
-## Deployment
+## 📦 Deployment
+Single Server
 
-- Single server: build frontend, run `npm start` to serve both API and static files.
-- Docker: see `Dockerfile`.
+Build frontend: npm run build
+Start backend: npm start
+
+---
+
+🌟 Features
+
+🌐 Immersive WebVR experience
+🏞️ Interactive 3D Ayurveda environments
+🔐 Secure backend with API endpoints
+📩 Contact form with email integration
+📱 Fully responsive design
+
+🔗 Quick Links
+
+Live Demo: https://arogyaverse.vercel.app
+GitHub Repo: https://github.com/yourusername/arogyaverse
+
