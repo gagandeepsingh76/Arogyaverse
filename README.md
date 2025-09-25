@@ -50,5 +50,5 @@ Start backend: npm start
 🔗 Quick Links
 
 Live Demo: https://arogyaverse.vercel.app
-GitHub Repo: https://github.com/yourusername/arogyaverse
+GitHub Repo: (https://github.com/gagandeepsingh76/Arogyaverse.git)
 
